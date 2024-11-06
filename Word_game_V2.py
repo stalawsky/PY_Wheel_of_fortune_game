@@ -2,8 +2,9 @@ import random
 from enum import Enum
 import pandas as pd 
 
+FileName = 'List of sentences_no_polish.xlsx'
 
-def prepare_list_of_guesses(file_name ='C:/Users/stala/OneDrive/Pulpit/List of sentences_no_polish.xlsx') -> list:
+def prepare_list_of_guesses(file_name = FileName) -> list:
     """ Enter a file location with the sentences to be used in game. 
     File should contain only one column. No polish signs. """
     df = pd.read_excel(file_name)
