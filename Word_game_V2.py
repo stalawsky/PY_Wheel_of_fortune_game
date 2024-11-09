@@ -4,13 +4,19 @@ import pandas as pd
 
 FileName = 'List of sentences_no_polish.xlsx'
 
-def prepare_list_of_guesses(file_name = FileName) -> list:
-    """ Enter a file location with the sentences to be used in game. 
-    File should contain only one column. No polish signs. """
-    df = pd.read_excel(file_name)
-    ListOfWords = df.iloc[:, 0].to_list()
-    return ListOfWords
-
+#def prepare_list_of_guesses(file_name = FileName) -> list:
+#    """ Enter a file location with the sentences to be used in game. 
+#    File should contain only one column. No polish signs. """
+#    df = pd.read_excel(file_name)
+#    ListOfWords = df.iloc[:, 0].to_list()
+#    return ListOfWords
+    
+def prepare_list_of_guesses(file_name=None) -> list:
+    """Load a file with sentences for the game. Use default if none provided."""
+    default_path = Path('data/List_of_sentences_no_polish.xlsx')
+    file_path = Path(file_name) if file_name else default_path
+    df = pd.read_excel(file_path)
+    return df.iloc[:, 0].to_list()
 
 def select_word_to_guess(EnterList) -> str:
     """ Enter a list of sentences to select a random sentence from. 
