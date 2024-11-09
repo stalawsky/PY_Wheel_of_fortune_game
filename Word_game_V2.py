@@ -5,7 +5,7 @@ import pandas as pd
 FileName = 'List of sentences_no_polish.xlsx'
 
  def prepare_list_of_guesses(file_name ='C:/Users/stala/OneDrive/Pulpit/List of sentences_no_polish.xlsx') -> list:
-     """ Enter a file location with the sentences to be used in game. 
+     """ Enter a file location with the sentences to be used in game. Please adjust path of your file with sentences. 
      File should contain only one column. No polish signs. """
      df = pd.read_excel(file_name)
      ListOfWords = df.iloc[:, 0].to_list()
