@@ -1,7 +1,7 @@
 import random
 from enum import Enum
 import pandas as pd 
-
+from pathlib import Path
 FileName = 'List of sentences_no_polish.xlsx'
 
  #def prepare_list_of_guesses(file_name ='C:/Users/stala/OneDrive/Pulpit/List of sentences_no_polish.xlsx') -> list:
@@ -145,4 +145,5 @@ def play_game(list_of_guesses,NumberOfRounds = 3):
 
 
 ListOfGuesses = prepare_list_of_guesses()
+
 play_game(ListOfGuesses)
