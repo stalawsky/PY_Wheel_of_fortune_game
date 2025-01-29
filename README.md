@@ -30,9 +30,13 @@ Achievements:
 
 
 To be added:
+
 🟢 Receive cash for each letter correctly guessed.
+
 🟢 Don't allow sentences to repeat in one round
+
 🟢 Add multiplayer
+
 🟢 Add polish letters
 
 
