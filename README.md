@@ -12,6 +12,7 @@ Key Features:
 ✅ Dynamic phrase updates – revealed letters are displayed, while unrevealed ones remain hidden.
 
 Technologies Used:
+
 🟢 Python – core programming language
 
 🟢 Excel file (.xlsx) – storing the phrase database
