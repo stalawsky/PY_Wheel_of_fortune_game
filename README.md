@@ -1,4 +1,5 @@
-Project Description:
+**Project Description:
+**
 I developed a Python-based game inspired by "Wheel of Fortune," where players guess a hidden phrase by selecting letters. The project integrates game logic, data handling, and file management.It is my first python project after taking python courses. I wanted to do a simple tool where I could try basics of python like loops, functions, list, dictionaries etc.
 
 Key Features:
