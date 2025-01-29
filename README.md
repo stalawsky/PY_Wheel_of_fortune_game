@@ -13,18 +13,24 @@ Key Features:
 
 Technologies Used:
 🟢 Python – core programming language
+
 🟢 Excel file (.xlsx) – storing the phrase database
+
 🟢 Loops and conditions – implementing game logic
+
 
 Achievements:
 ✅ Developed a fully functional Python game, enhancing skills in input handling and algorithms.
+
 ✅ Applied string manipulation techniques and interactive user input processing.
+
 ✅ Potential for further expansion, including a graphical user interface or database integration.
 
+
 To be added:
-#Receive cash for each letter correctly guessed.
-#Don't allow sentences to repeat in one round
-#Add multiplayer
-#Add polish letters
+🟢 Receive cash for each letter correctly guessed.
+🟢 Don't allow sentences to repeat in one round
+🟢 Add multiplayer
+🟢 Add polish letters
 
 
